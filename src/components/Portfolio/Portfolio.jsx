@@ -7,6 +7,10 @@ import Ecommerce from "../../img/ema-jhon.png";
 import exercise from "../../img/exercise-club.png";
 import AlQuran from "../../img/al-quran.png";
 import quiz from "../../img/quiz-hacks.png";
+import panda from "../../img/panda ecommerce.png"
+import proedu from "../../img/pro-edu.png"
+import typetest from "../../img/typing test.png"
+import shoppers from "../../img/shoppers.png"
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -25,22 +29,28 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={skilify} alt="" />
+          <a href="https://skilify-e-learning.web.app/" target="_blank"><img src={skilify} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://ema-jhon-simple-1b78a.web.app/" target="_blank" rel="noopener noreferrer">   <img src={Ecommerce} alt="" /></a>
+       
         </SwiperSlide>
         <SwiperSlide>
-          <img src={AlQuran} alt="" />
+         <a href="https://quran-hadith.netlify.app" target="_blank"> <img src={AlQuran} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={exercise} alt="" />
+          <a href="https://exercise-schedule.netlify.app" target='_blank'> <img src={exercise} alt="" /></a>
+
         </SwiperSlide>
         <SwiperSlide>
-          <img src={quiz} alt="" />
+          <a href="https://quiz-hacks.netlify.app/" target="_blank"> <img src={quiz} alt="" /></a>
+         
         </SwiperSlide>
         <SwiperSlide>
-          <img src={exercise} alt="" />
+          <a href="https://typing-test-w.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={typetest} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://edtech-2022.netlify.app/" target="_blank" rel="noopener noreferrer"><img src={proedu} alt="" /></a>
         </SwiperSlide>
       </Swiper>
     </div>
