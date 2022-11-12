@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./AllPortfolio.css";
+import carWash from '../../img/car-wash-services.png';
 import skilify from "../../img/E-learnig website.png";
 import emajhon from "../../img/ema-jhon.png";
 import exercise from "../../img/exercise-club.png";
@@ -27,6 +28,12 @@ import { useState } from 'react';
 // import data from './data'
 const data={
   cardData:[
+    {
+        id:0,
+        img:carWash,
+        link:'https://car-wash-services.netlify.app/#slide2',
+        desc:'desc 0'
+    },
       {
           id:1,
           img:sstech,

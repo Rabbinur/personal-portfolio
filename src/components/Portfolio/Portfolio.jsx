@@ -8,12 +8,10 @@ import Ecommerce from "../../img/ema-jhon.png";
 import exercise from "../../img/exercise-club.png";
 import AlQuran from "../../img/al-quran.png";
 import quiz from "../../img/quiz-hacks.png";
-import panda from "../../img/panda ecommerce.png"
-import proedu from "../../img/pro-edu.png"
-import typetest from "../../img/typing test.png"
-import shoppers from "../../img/shoppers.png"
+import carWash from '../../img/car-wash-services.png'
 import { themeContext } from "../../Context";
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper";
+import { Link } from "react-scroll";
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -35,6 +33,9 @@ const Portfolio = () => {
         
         className="portfolio-slider"
       >
+        <SwiperSlide>
+          <a href="https://car-wash-services.netlify.app/#slide2" target="_blank"><img src={carWash} alt="" /></a>
+        </SwiperSlide>
         <SwiperSlide>
           <a href="https://skilify-e-learning.web.app/" target="_blank"><img src={skilify} alt="" /></a>
         </SwiperSlide>
